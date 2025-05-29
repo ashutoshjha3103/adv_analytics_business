@@ -1,42 +1,42 @@
 [
   {
-    "Aid":"http:\/\/arxiv.org\/abs\/2505.16575v1",
-    "Title":"Data Center Model for Transient Stability Analysis of Power Systems",
-    "Main Category":"eess.SY",
-    "Categories":"eess.SY,cs.SY",
-    "True Main Category":"eess.SY",
-    "True Categories":"eess.SY,cs.SY"
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.19411v1",
+    "Title":"Split-as-a-Pro: behavioral control via operator splitting and\n  alternating projections",
+    "Main Category":"math.OC",
+    "Categories":"math.OC,cs.SY,eess.SY",
+    "True Main Category":"math.OC",
+    "True Categories":"math.OC,cs.SY,eess.SY"
   },
   {
-    "Aid":"http:\/\/arxiv.org\/abs\/2505.16576v1",
-    "Title":"EMULATE: A Multi-Agent Framework for Determining the Veracity of Atomic\n  Claims by Emulating Human Actions",
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.19412v1",
+    "Title":"2d Cardy-Rabinovici model with the modified Villain lattice: Exact\n  dualities and symmetries",
+    "Main Category":"hep-th",
+    "Categories":"hep-th,hep-lat",
+    "True Main Category":"hep-th",
+    "True Categories":"hep-th,hep-lat"
+  },
+  {
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.19413v1",
+    "Title":"Limit distributions for $\\text{SO}(n,1)$ action on $k$-lattices in\n  $\\mathbb{R}^{n+1}$",
+    "Main Category":"math.DS",
+    "Categories":"math.DS",
+    "True Main Category":"math.DS",
+    "True Categories":"math.DS"
+  },
+  {
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.19429v1",
+    "Title":"Rhapsody: A Dataset for Highlight Detection in Podcasts",
     "Main Category":"cs.CL",
     "Categories":"cs.CL",
     "True Main Category":"cs.CL",
     "True Categories":"cs.CL"
   },
   {
-    "Aid":"http:\/\/arxiv.org\/abs\/2505.16577v1",
-    "Title":"Large Language Model-Empowered Interactive Load Forecasting",
-    "Main Category":"cs.LG",
-    "Categories":"cs.LG,cs.AI",
-    "True Main Category":"cs.LG",
-    "True Categories":"cs.LG"
-  },
-  {
-    "Aid":"http:\/\/arxiv.org\/abs\/2505.16578v1",
-    "Title":"Standard Running, \"Physical Running\" and Cosmological Constant",
-    "Main Category":"hep-th",
-    "Categories":"hep-th,gr-qc",
-    "True Main Category":"hep-th",
-    "True Categories":"hep-th,gr-qc"
-  },
-  {
-    "Aid":"http:\/\/arxiv.org\/abs\/2505.16579v1",
-    "Title":"Bridging the Dynamic Perception Gap: Training-Free Draft\n  Chain-of-Thought for Dynamic Multimodal Spatial Reasoning",
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.19414v1",
+    "Title":"Toward Physics-Informed Machine Learning for Data Center Operations: A\n  Tropical Case Study",
     "Main Category":"cs.AI",
-    "Categories":"cs.AI,cs.CV",
+    "Categories":"cs.AI,cs.LG",
     "True Main Category":"cs.AI",
-    "True Categories":"cs.AI,cs.CV"
+    "True Categories":"cs.AI,cs.LG"
   }
 ]

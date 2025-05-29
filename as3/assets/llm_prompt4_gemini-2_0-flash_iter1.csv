@@ -1,0 +1,33 @@
+Aid,Title,Main Category,Categories,True Main Category,True Categories,Error
+http://arxiv.org/abs/2505.19411v1,"Split-as-a-Pro: behavioral control via operator splitting and
+  alternating projections",math.OC,"math.OC,cs.SY,eess.SY",math.OC,"math.OC,cs.SY,eess.SY",0.0
+http://arxiv.org/abs/2505.19412v1,"2d Cardy-Rabinovici model with the modified Villain lattice: Exact
+  dualities and symmetries",hep-th,"hep-th,hep-lat",hep-th,"hep-th,hep-lat",0.0
+http://arxiv.org/abs/2505.19413v1,"Limit distributions for $\text{SO}(n,1)$ action on $k$-lattices in
+  $\mathbb{R}^{n+1}$",math.DS,"math.DS,math.RT,math.SP,math.MG,math.GR",math.DS,math.DS,2.0
+http://arxiv.org/abs/2505.19414v1,"Toward Physics-Informed Machine Learning for Data Center Operations: A
+  Tropical Case Study",cs.AI,"cs.AI,cs.LG",cs.AI,"cs.AI,cs.LG",0.0
+http://arxiv.org/abs/2505.19415v1,"MMIG-Bench: Towards Comprehensive and Explainable Evaluation of
+  Multi-Modal Image Generation Models",cs.CV,"cs.CV,cs.AI,cs.LG,cs.MM",cs.CV,cs.CV,1.5
+http://arxiv.org/abs/2505.19416v1,Quantitative analysis of cell size control mechanisms,q-bio.CB,"q-bio.CB,q-bio.QM",q-bio.CB,q-bio.CB,0.5
+http://arxiv.org/abs/2505.19417v1,"Irreducible cuspidal $\mathfrak{sl}_{n+1}$-modules from
+  finite-dimensional modules over the minimal nilpotent finite $W$-algebra",math.RT,"math.RT,math.RA",math.RT,"math.RT,math.RA",0.0
+http://arxiv.org/abs/2505.19418v1,"Enhancing Test Efficiency through Automated ATPG-Aware Lightweight Scan
+  Instrumentation",cs.AR,"cs.AR,cs.ET",cs.AR,"cs.AR,cs.ET",0.0
+http://arxiv.org/abs/2505.19419v1,"It's Not Just Labeling"" -- A Research on LLM Generated Feedback
+  Interpretability and Image Labeling Sketch Features",cs.HC,"cs.HC,cs.AI",cs.HC,"cs.HC,cs.AI",0.0
+http://arxiv.org/abs/2505.19420v1,ADD-SLAM: Adaptive Dynamic Dense SLAM with Gaussian Splatting,cs.CV,"cs.CV,cs.RO,cs.AI",cs.CV,cs.CV,1.0
+http://arxiv.org/abs/2505.19421v1,Certainty and Uncertainty Guided Active Domain Adaptation,cs.CV,"cs.CV,cs.LG,cs.AI",cs.CV,cs.CV,1.0
+http://arxiv.org/abs/2505.19422v1,LlamaSeg: Image Segmentation via Autoregressive Mask Generation,cs.CV,"cs.CV,cs.AI,cs.LG",cs.CV,cs.CV,1.0
+http://arxiv.org/abs/2505.19423v1,"Surrogate-Assisted Evolutionary Reinforcement Learning Based on
+  Autoencoder and Hyperbolic Neural Network",cs.LG,"cs.LG,cs.AI",cs.LG,"cs.LG,cs.AI",0.0
+http://arxiv.org/abs/2505.19424v1,Matrix-product-state approach for qubits-waveguide systems in real space,quant-ph,"quant-ph,cond-mat.stat-mech",quant-ph,"quant-ph,cond-mat.stat-mech",0.0
+http://arxiv.org/abs/2505.19425v1,"Structure Disruption: Subverting Malicious Diffusion-Based Inpainting
+  via Self-Attention Query Perturbation",cs.CV,"cs.CV,cs.CR,cs.LG",cs.CV,"cs.CV,cs.CR,cs.LG",0.0
+http://arxiv.org/abs/2505.19426v1,The Role of Diversity in In-Context Learning for Large Language Models,cs.CL,"cs.CL,cs.AI,cs.LG",cs.CL,"cs.CL,cs.AI,cs.LG",0.0
+http://arxiv.org/abs/2505.19427v1,"WINA: Weight Informed Neuron Activation for Accelerating Large Language
+  Model Inference",cs.LG,"cs.LG,cs.AI",cs.LG,"cs.LG,cs.AI",0.0
+http://arxiv.org/abs/2505.19428v1,Frictional Agent Alignment Framework: Slow Down and Don't Break Things,cs.CL,"cs,cs.AI,cs.CL,cs.HC,cs.LG",cs.CL,cs.CL,2.0
+http://arxiv.org/abs/2505.19429v1,Rhapsody: A Dataset for Highlight Detection in Podcasts,cs.CL,cs.CL,cs.CL,cs.CL,0.0
+http://arxiv.org/abs/2505.19430v1,"Deriving Strategic Market Insights with Large Language Models: A
+  Benchmark for Forward Counterfactual Generation",cs.CL,"cs.CL,cs.AI",cs.CL,"cs.CL,cs.AI",0.0

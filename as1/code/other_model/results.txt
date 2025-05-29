@@ -1,0 +1,436 @@
+SUMMARY
+Performance of the best performing model for different configurations:
+
+
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 334356.76622029644, with accuracy 0.7772853185595567.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 14% with Winkler score of 332608.2697314392, with accuracy 0.7595567867036012.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 14% with Winkler score of 330835.68278406264, with accuracy 0.7684210526315789.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 330737.96355823334, with accuracy 0.7662049861495844.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 338268.9309978408, with accuracy 0.7850415512465374.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 345136.5473268423, with accuracy 0.7782086795937212.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 338081.48474895384, with accuracy 0.7894736842105263.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 356390.0127413688, with accuracy 0.7554939981532779.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 363511.12838962197, with accuracy 0.7835641735918745.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 330704.5925303985, with accuracy 0.7708217913204063.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 11% with Winkler score of 332527.31559315743, with accuracy 0.7852262234533702.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 11% with Winkler score of 333925.2440508683, with accuracy 0.7867036011080333.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 331138.4119740314, with accuracy 0.7601108033240997.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 342995.68529394554, with accuracy 0.7802400738688827.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 344903.08119085716, with accuracy 0.7721144967682364.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 338081.48474895384, with accuracy 0.7894736842105263.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 356390.0127413688, with accuracy 0.7554939981532779.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 363511.12838962197, with accuracy 0.7835641735918745.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 334369.1522498561, with accuracy 0.7673130193905817.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 342846.05562081275, with accuracy 0.7645429362880887.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 344589.59428477933, with accuracy 0.765466297322253.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 336537.1558655449, with accuracy 0.7569713758079409.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 348954.56310082134, with accuracy 0.7846722068328716.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 353762.9130646018, with accuracy 0.7752539242843952.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 340738.8127942391, with accuracy 0.7771006463527239.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 357589.9990112205, with accuracy 0.7469990766389658.
+
+With specification {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 364926.70373043924, with accuracy 0.782825484764543.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 387524.4351442248, with accuracy 0.7163434903047091.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 3% with Winkler score of 399604.841765843, with accuracy 0.705078485687904.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 3% with Winkler score of 405159.0930580179, with accuracy 0.7023084025854109.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 381801.41698809795, with accuracy 0.720960295475531.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 3% with Winkler score of 399349.7301809526, with accuracy 0.6954755309325946.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 403973.1949448838, with accuracy 0.7800554016620499.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 378346.4498313127, with accuracy 0.7246537396121884.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 401507.2122766727, with accuracy 0.7765466297322253.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 407563.03115542984, with accuracy 0.765466297322253.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 385886.067251229, with accuracy 0.7141274238227147.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 3% with Winkler score of 399480.35543085187, with accuracy 0.6982456140350877.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 405548.027475412, with accuracy 0.7807940904893813.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 380475.3610561746, with accuracy 0.7218836565096953.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 399181.68350764783, with accuracy 0.782825484764543.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 403532.8889735237, with accuracy 0.778393351800554.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 378346.4498313127, with accuracy 0.7246537396121884.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 401507.2122766727, with accuracy 0.7765466297322253.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 407563.03115542984, with accuracy 0.765466297322253.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 383780.85590299603, with accuracy 0.7069252077562327.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 400507.47267819435, with accuracy 0.7793167128347184.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 406484.5547170574, with accuracy 0.7743305632502309.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 380212.55520131433, with accuracy 0.7126500461680517.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 399203.141536452, with accuracy 0.7782086795937212.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 405248.910997287, with accuracy 0.7713758079409049.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 377636.9633195073, with accuracy 0.7200369344413666.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 401136.0048986707, with accuracy 0.7667590027700831.
+
+With specification {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 408848.7140847421, with accuracy 0.765466297322253.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 336538.0026728125, with accuracy 0.7486611265004617.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 11% with Winkler score of 335485.34474838775, with accuracy 0.7586334256694367.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 11% with Winkler score of 339829.80797017, with accuracy 0.7595567867036012.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 332173.0319742947, with accuracy 0.7867036011080333.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 342672.4330307858, with accuracy 0.7532779316712834.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 348152.67439966864, with accuracy 0.7872576177285319.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 338509.39866616204, with accuracy 0.7802400738688827.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 359139.19528435514, with accuracy 0.7394275161588181.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 364319.5033932288, with accuracy 0.775438596491228.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 334707.43717517814, with accuracy 0.7819021237303786.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 337945.0903480792, with accuracy 0.7734072022160665.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 343581.4151221689, with accuracy 0.7706371191135734.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 332588.07448400214, with accuracy 0.7787626962142198.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 345925.01355164783, with accuracy 0.7497691597414589.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 349137.8122006601, with accuracy 0.78134810710988.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 338509.39866616204, with accuracy 0.7802400738688827.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 359139.19528435514, with accuracy 0.7394275161588181.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 364319.5033932288, with accuracy 0.775438596491228.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 335587.111096867, with accuracy 0.7905817174515235.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 344694.76973312255, with accuracy 0.7774699907663897.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 349211.73095374164, with accuracy 0.7745152354570637.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 336985.78467642737, with accuracy 0.7850415512465374.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 349693.86418690695, with accuracy 0.7610341643582641.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 357464.2742994055, with accuracy 0.7521698984302863.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 341405.9198788992, with accuracy 0.7687903970452447.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 5% with Winkler score of 358555.0879163806, with accuracy 0.7817174515235457.
+
+With specification {'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 367540.688120133, with accuracy 0.7689750692520776.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 333539.16368540196, with accuracy 0.775438596491228.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 14% with Winkler score of 329779.41074226244, with accuracy 0.766943674976916.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 14% with Winkler score of 332290.99543480325, with accuracy 0.765466297322253.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 330614.3071083732, with accuracy 0.7676823638042475.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 340121.2718788693, with accuracy 0.7819021237303786.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 342365.76156088413, with accuracy 0.7771006463527239.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 338070.8926182949, with accuracy 0.7894736842105263.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 357787.50847051694, with accuracy 0.7545706371191135.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 363749.5751989504, with accuracy 0.7859649122807018.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 331141.08779283543, with accuracy 0.7724838411819022.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 11% with Winkler score of 330787.615343984, with accuracy 0.7879963065558634.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 11% with Winkler score of 335226.75230509177, with accuracy 0.7846722068328716.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 331318.34683210624, with accuracy 0.7584487534626039.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 341098.1413684684, with accuracy 0.7807940904893813.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 344625.4329236254, with accuracy 0.7710064635272391.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 338070.8926182949, with accuracy 0.7894736842105263.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 357787.50847051694, with accuracy 0.7545706371191135.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 363749.5751989504, with accuracy 0.7859649122807018.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 334127.5080412533, with accuracy 0.7667590027700831.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 343898.5761586869, with accuracy 0.762511542012927.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 344740.9436459947, with accuracy 0.7608494921514312.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 336557.1709662598, with accuracy 0.7569713758079409.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 352239.42139369465, with accuracy 0.7820867959372114.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 353958.89221519907, with accuracy 0.7698984302862419.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 340765.1998188061, with accuracy 0.7771006463527239.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 357975.34674509894, with accuracy 0.7471837488457987.
+
+With specification {'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 364372.0268385664, with accuracy 0.7822714681440444.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 331948.3797358054, with accuracy 0.7852262234533702.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 14% with Winkler score of 329810.34347293276, with accuracy 0.7687903970452447.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 14% with Winkler score of 327615.0303016564, with accuracy 0.7743305632502309.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 328909.85250667174, with accuracy 0.7767313019390581.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 11% with Winkler score of 337020.9347622631, with accuracy 0.7530932594644506.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 342557.3407919952, with accuracy 0.7868882733148661.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 336450.254129638, with accuracy 0.8009233610341644.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 353243.40357073926, with accuracy 0.7608494921514312.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 360024.8427279063, with accuracy 0.7505078485687904.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 328282.86403872404, with accuracy 0.7778393351800554.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 11% with Winkler score of 329646.05944387073, with accuracy 0.7975992613111726.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 11% with Winkler score of 330654.1316707308, with accuracy 0.7933518005540167.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 329536.1084928574, with accuracy 0.7724838411819022.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 338608.1466872339, with accuracy 0.7891043397968606.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 342144.3028718929, with accuracy 0.7807940904893813.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 336450.254129638, with accuracy 0.8009233610341644.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 353243.40357073926, with accuracy 0.7608494921514312.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 360024.8427279063, with accuracy 0.7505078485687904.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 332751.679899565, with accuracy 0.7767313019390581.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 339647.304929218, with accuracy 0.7719298245614035.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 341850.76329306193, with accuracy 0.769713758079409.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 334858.14249637997, with accuracy 0.7645429362880887.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 346970.09051963256, with accuracy 0.7900277008310249.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 350585.7945581581, with accuracy 0.782825484764543.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 338953.9070492696, with accuracy 0.7852262234533702.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 355680.71718014084, with accuracy 0.7529085872576178.
+
+With specification {'n_estimators': 200, 'max_depth': None, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 361682.2892145079, with accuracy 0.741089566020314.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 384199.58659909485, with accuracy 0.7392428439519853.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 3% with Winkler score of 395584.76442305685, with accuracy 0.7152354570637119.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 3% with Winkler score of 401392.6681077006, with accuracy 0.7126500461680517.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 379894.5677465141, with accuracy 0.7429362880886426.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 3% with Winkler score of 393778.05473718693, with accuracy 0.7072945521698984.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 403264.1454584093, with accuracy 0.7974145891043398.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 376241.54869650915, with accuracy 0.7469990766389658.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 398969.14606350433, with accuracy 0.7907663896583564.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 404177.8906824422, with accuracy 0.7807940904893813.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 382430.2341783142, with accuracy 0.738134810710988.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 3% with Winkler score of 396549.10100949317, with accuracy 0.7082179132040628.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 402077.7435734572, with accuracy 0.8001846722068329.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 379042.1845453577, with accuracy 0.7431209602954756.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 3% with Winkler score of 398252.5321796989, with accuracy 0.7065558633425669.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 403214.82395363244, with accuracy 0.8007386888273315.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 376241.54869650915, with accuracy 0.7469990766389658.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 398969.14606350433, with accuracy 0.7907663896583564.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 404177.8906824422, with accuracy 0.7807940904893813.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 380666.2794459105, with accuracy 0.7298245614035088.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 3% with Winkler score of 397391.70486694714, with accuracy 0.702123730378578.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 402670.15140282427, with accuracy 0.7940904893813481.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 376855.0789200461, with accuracy 0.7349953831948292.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 398831.54107299534, with accuracy 0.798522622345337.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 403474.3433138127, with accuracy 0.7907663896583564.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 1% with Winkler score of 375564.16511217074, with accuracy 0.7436749769159742.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 1% with Winkler score of 398814.42366464424, with accuracy 0.7892890120036934.
+
+With specification {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 1% with Winkler score of 404618.70868466375, with accuracy 0.7835641735918745.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 332968.72039383574, with accuracy 0.7564173591874422.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 11% with Winkler score of 334169.160448715, with accuracy 0.7641735918744229.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 11% with Winkler score of 336867.7599506549, with accuracy 0.765466297322253.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 330397.4018023204, with accuracy 0.7968605724838412.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 340878.90222581755, with accuracy 0.7623268698060942.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 345341.0260212466, with accuracy 0.7514312096029547.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 336907.93173714686, with accuracy 0.7933518005540167.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 356141.25952069723, with accuracy 0.7490304709141274.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 362509.02705534385, with accuracy 0.7854108956602032.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 331900.9162173957, with accuracy 0.7519852262234533.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 336089.1003136972, with accuracy 0.785595567867036.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 341090.005481728, with accuracy 0.7778393351800554.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 330560.49726022093, with accuracy 0.7940904893813481.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 342714.9336125694, with accuracy 0.7545706371191135.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 346287.04264174355, with accuracy 0.7905817174515235.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 336907.93173714686, with accuracy 0.7933518005540167.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 356141.25952069723, with accuracy 0.7490304709141274.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 362509.02705534385, with accuracy 0.7854108956602032.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 334500.9415518588, with accuracy 0.7571560480147738.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 343340.7487747972, with accuracy 0.7846722068328716.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 346965.3892587894, with accuracy 0.7846722068328716.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 335830.6644061594, with accuracy 0.7953831948291782.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 347990.11496990017, with accuracy 0.766943674976916.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 354505.0269544221, with accuracy 0.7575253924284395.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 339218.0115035126, with accuracy 0.778393351800554.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 5% with Winkler score of 357288.80732262164, with accuracy 0.788365650969529.
+
+With specification {'n_estimators': 200, 'max_depth': 20, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 364214.04230786895, with accuracy 0.7793167128347184.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 331615.09258250543, with accuracy 0.7879963065558634.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 14% with Winkler score of 328249.9461568152, with accuracy 0.766943674976916.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 14% with Winkler score of 329247.83869636495, with accuracy 0.7743305632502309.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 328638.98404691304, with accuracy 0.7765466297322253.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 337957.4173624377, with accuracy 0.795752539242844.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 341292.6478486617, with accuracy 0.7857802400738689.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 336452.4336652826, with accuracy 0.8009233610341644.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 353617.3763788912, with accuracy 0.7623268698060942.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 360621.5768255298, with accuracy 0.7506925207756233.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 329050.0445724719, with accuracy 0.7787626962142198.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 11% with Winkler score of 329474.79308185243, with accuracy 0.7996306555863343.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 11% with Winkler score of 331899.25408107595, with accuracy 0.7926131117266851.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 11% with Winkler score of 329669.28371233784, with accuracy 0.7704524469067405.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 338381.62854886753, with accuracy 0.7874422899353647.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 342005.6491741887, with accuracy 0.7789473684210526.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 336452.4336652826, with accuracy 0.8009233610341644.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 353617.3763788912, with accuracy 0.7623268698060942.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 360621.5768255298, with accuracy 0.7506925207756233.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 332677.15302846394, with accuracy 0.7761772853185596.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, the best Winkler score is obtained at 9% with Winkler score of 339867.52967699926, with accuracy 0.7704524469067405.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'log2'}, the best Winkler score is obtained at 9% with Winkler score of 342609.14672734635, with accuracy 0.7715604801477378.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': None}, the best Winkler score is obtained at 9% with Winkler score of 334856.6868961173, with accuracy 0.7641735918744229.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 348508.99549116794, with accuracy 0.7902123730378579.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'log2'}, the best Winkler score is obtained at 7% with Winkler score of 351755.58816624637, with accuracy 0.7804247460757157.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': None}, the best Winkler score is obtained at 7% with Winkler score of 338992.72711764317, with accuracy 0.7852262234533702.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt'}, the best Winkler score is obtained at 7% with Winkler score of 355607.263787361, with accuracy 0.7532779316712834.
+
+With specification {'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'log2'}, the best Winkler score is obtained at 5% with Winkler score of 362003.5707846204, with accuracy 0.7937211449676823.
