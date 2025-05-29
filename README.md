@@ -17,24 +17,28 @@ CLEAN-MAIN/
 ├── as1/                      # Assignment 1: Real Estate Price Prediction
 │   ├── assets/
 │   ├── code/
-│   │   ├── feature_engr/         # Feature engineering notebooks
-│   │   ├── final_model/          # Final training and prediction notebooks
-│   │   ├── other_model/          # Additional modeling attempts
-│   │   └── pre_processing/       # Data cleaning and preparation notebooks
+│   │   ├── feature_engr/
+│   │   ├── final_model/
+│   │   ├── other_model/
+│   │   └── pre_processing/
 │   └── data/
 │
 ├── as2/                      # Assignment 2: Country Classification via Street View Images
 │   ├── code/
-│   │   ├── final_model/          # Final CNN model (EfficientNetB1)
-│   │   ├── interpretability_analysis/ # XRAI heatmaps and interpretation
-│   │   └── pre_processing/       # Image downscaling and augmentation logic
+│   │   ├── final_model/
+│   │   ├── interpretability_analysis/
+│   │   └── pre_processing/
 │   └── data/
 │
 ├── as3/                      # Assignment 3: LLM-based Tag Prediction for arXiv Papers
 │   ├── assets/
 │   ├── code/
-│   │   ├── stream_analytics.ipynb
-│   │   └── stream_analytics_final_prompt.ipynb  # Final LLM pipeline with prompt engineering
+│   │   ├── api_llm_model/            # LLM via Google Gemini API
+│   │   │   |── stream_analytics_final_prompt.ipynb
+|   |   |   └── stream_analytics.ipynb
+│   │   └── local_llm_model/          # Local BART model with MLP head
+│   │       └── Bart_LLM_with_MLP.ipynb
+│   │   
 │   └── outputs/
 │
 ├── as4/                      # Assignment 4: Graph Analytics on Steam Network
