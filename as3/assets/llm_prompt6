@@ -1,0 +1,253 @@
+Based on the provided research paper's title and summary, your objective is to accurately determine its primary category and all applicable subcategories.
+To achieve this, you must meticulously consult and exclusively use the provided TARGET_CATEGORIES list and the accompanying Explanation for each category for all classification decisions. First, identify the single, most fitting main_category that best encapsulates the core subject of the paper. Following this, select all other categories and subcategories from the TARGET_CATEGORIES list that logically and comprehensively apply to the paper's content as inferred from its title and summary.
+Present your findings as a dictionary, strictly adhering to the structure demonstrated in the Examples. This dictionary must contain exactly two keys: "main_category": A string value representing the single primary category you have identified. "categories": A string value consisting of a comma-separated list of all selected categories and subcategories. This list must include the main_category and all other applicable categories you've chosen.
+It is crucial that every category and subcategory included in your output originates directly from the TARGET_CATEGORIES list. The Examples provided are correct and serve as the definitive guide for understanding the expected output format and the reasoning behind the logical application of categories to a paper.
+
+
+{"aid": "http://arxiv.org/abs/2503.24234v1", "title": "Beyond Gaussian Assumptions: A Nonlinear Generalization of Linear\n  Inverse Modeling", "summary": "The Linear Inverse Model (LIM) is a class of data-driven methods that\nconstruct approximate linear stochastic models to represent complex\nobservational data. The stochastic forcing can be modeled using either Gaussian\nwhite noise or Ornstein-Uhlenbeck colored noise; the corresponding models are\ncalled White-LIM and Colored-LIM, respectively. Although LIMs are widely\napplied in climate sciences, they inherently approximate observed distributions\nas Gaussian, limiting their ability to capture asymmetries.\n  In this study, we extend LIMs to incorporate nonlinear dynamics, introducing\nWhite-nLIM and Colored-nLIM which allow for a more flexible and accurate\nrepresentation of complex dynamics from observations. The proposed methods not\nonly account for the nonlinear nature of the underlying system but also\neffectively capture the skewness of the observed distribution. Moreover, we\napply these methods to a lower-dimensional representation of ENSO and\ndemonstrate that both White-nLIM and Colored-nLIM successfully capture its\nnonlinear characteristic."}
+
+
+
+
+List of possible categories/subcategories:
+TARGET_CATEGORIES = [
+'astro-ph', 'astro-ph.-ph.GA', 'astro-ph.CO', 'astro-ph.EP', 'astro-ph.HE',
+'astro-ph.IM', 'astro-ph.SR', 'cond-mat', 'cond-mat.dis-nn',
+'cond-mat.mtrl-sci', 'cond-mat.mes-hall', 'cond-mat.other',
+'cond-mat.quant-gas', 'condGA', 'astro-ph.CO', 'astro-ph.EP', 'astro-ph.HE', 'astro-ph.IM',
+'astro-ph.SR', 'cond-mat', 'cond-mat.dis-nn', 'cond-mat.mtrl-sci', 'cond-mat.mes-hall',
+'cond-mat.other', 'cond-mat.quant-gas', 'cond-mat.soft',-mat.soft', 'cond-mat.stat-mech',
+'cond-mat.str-el', 'cond-mat.supr-con', 'gr-qc', 'hep-ex', 'hep- 'cond-mat.stat-mech',	'cond-mat.str-el', 'cond-mat.supr-con', 'gr-qc', 'hep-ex', 'hep-lat', 'hep-lat',	'hep-ph', 'hep-th', 'math-ph', 'nlin', 'nlin.AO', 'nlin.CD', 'nlin.CG',	'nlin.PS', 'nlin.SI', 'nucl-ex', 'nucl-th', 'physics', 'physics.acc-ph','physics.app-ph', 'physics.ao-ph', 'physics.ph',
+'hep-th', 'math-ph', 'nlin', 'nlin.AO', 'nlin.CD', 'nlin.CG', 'nlin.PS', 'nlin.SI',
+‘atm-clus', 'physics.atom-ph',
+'physics.bio-ph', 'physics.chem-ph', 'physics.class-ph', 'physics.comp-ph',
+'physics.data-	'nucl-ex', 'nucl-th', 'physics', 'physics.acc-ph', 'physics.app-ph','physics.ao-ph',
+'physics.atm-clus', 'physicsan', 'physics.flu-dyn', 'physics.gen-ph', 'physics.geo-ph',
+'physics.hist-ph', 'physics.ins-det', 'physics.med-ph', 'physics.atom-ph', 'physics.bio-ph', 'physics.chem-ph','physics.class-ph', 'physics.comp-ph', 'physics.data-an', 'physics.flu-dyn.optics',
+'physics.soc-ph', 'physics.ed-ph', 'physics.plasm-ph', 'physics.pop-ph',
+'physics.space-ph', 'quant-ph', 'math', 'math.AG', 'math.AT', 'math.AP',
+'math.CT', 'math.CA', 'math.CO', 'math.AC', 'math.CV', 'math.DG',
+'physics.gen-ph', 'physics.geo-ph', 'physics.hist-ph', 'physics.ins-det',
+'physics.med-ph', 'physics.optics', 'physics.soc',
+'math.DS', 'math.FA', 'math.GM', 'math.GN', 'math.GT', 'math.GR',
+'math.HO', 'math.IT', 'math.KT', 'math-ph', 'physics.ed-ph',
+'physics.plasm-ph', 'physics.pop-ph', 'physics.space-ph', 'quant-ph', 'math',
+'math.AG', 'math.AT', 'math.AP', 'math.CT', 'math.CA', 'math.CO', 'math.AC', 'math.CV',
+'math.DG', 'math.DS', 'math.FA', 'math.GM.LO', 'math.MP', 'math.MG',
+'math.NT', 'math.NA', 'math.OA', 'math.OC', 'math.PR', 'math.QA', 'math.GN', 'math.GT', 'math.GR', 'math.HO','math.IT', 'math.KT', 'math.LO',  'math.MP', 'math.MG', 'math.NT',math.RT', 'math.RA', 'math.SP', 'math.ST', 'math.SG', 'cs', 'cs.AI',
+'cs.AR', 'cs.CC', 'cs.CE 'math.NA', 'math.OA',
+'math.OC', 'math.PR', 'math.QA', 'math.RT', 'math.RA', 'math.SP', 'math.ST', 'math.SG',', 'cs.CG', 'cs.CL', 'cs.CR', 'cs.CV', 'cs.CY',
+'cs.DB', 'cs.DC', 'cs.DL', 'cs.DM', 'cs.ET', 'cs.FL', 'cs.GL', 'cs.GR',
+'cs.GT', 'cs.HC', 'cs.IR', 'cs.IT', 'cs.LG', 'cs.LO',
+'cs', 'cs.AI', 'cs.AR', 'cs.CC', 'cs.CE', 'cs.CG', 'cs.CL', 'cs.CR', 'cs.CV', 'cs.CY',
+'cs.DB', 'cs.DC', 'cs.DL', 'cs.DM', 'cs.ET', 'cs.FL', 'cs.GL', 'cs.GR', 'cs.GT', 'cs. 'cs.MA', 'cs.MS','cs.MM', 'cs.NI', 'cs.NE', 'cs.NA', 'cs.OS', 'cs.OH', 'cs.PF', 'cs.PL',
+'cs.RO', 'cs.SE', 'cs.SI', 'cs.SD', 'cs.SC', 'cs.SY', 'q-bio', 'q-bio.BM','q-bioHC',
+'cs.IR', 'cs.IT', 'cs.LG', 'cs.LO', 'cs.MA', 'cs.MS', 'cs.MM', 'cs.NI', 'cs.NE', 'cs.NA.CB', 'q-bio.GN', 'q-bio.MN', 'q-bio.NC', 'q-bio.OT', 'q-bio.PE','q-bio.QM',
+'cs.OS', 'cs.OH', 'cs.PF', 'cs.PL', 'cs.RO', 'cs.SE', 'cs.SI', 'cs.SD', 'cs.SC', 'cs.SYq-bio.SC', 'q-bio.TO', 'q-fin', 'q-fin.CP', 'q-fin.EC','q-fin.GN', 'q-fin.MF',
+'q-bio', 'q-bio.BM', 'q-bio.CB', 'q-bio.GN', 'q-bio.MN', 'q-bio.NC', 'q-bio.OT',
+'q-bio.PE', 'q-bio.QM', 'q-bio.SC', 'q-bio.TO', 'q-fin', 'q-fin.CP', 'q-fin 'q-fin.PM', 'q-fin.PR', 'q-fin.RM', 'q-fin.ST','q-fin.TR', 'stat', 'stat.AP', 'stat..EC',
+'q-fin.GN', 'q-fin.MF', 'q-fin.PM', 'q-fin.PR', 'q-fin.RM', 'q-fin.ST', 'CO', 'stat.ML', 'stat.ME',
+'stat.OT', 'stat.TH', 'eess', 'eess.AS', 'eess.IV', 'eess.SP',
+'eess.SY', 'econ', 'econ.EM', 'econ.GN', 'econ.TH'
+]
+
+Explanation for each category:
+Physics
+astro-ph: Astrophysics. Study of galaxies, cosmology, high energy astrophysical phenomena, solar and stellar astrophysics, and advanced instrumentation methods for observing celestial objects.
+astro-ph.GA: Astrophysics of Galaxies. Study of the formation, evolution, structure, and dynamics of galaxies and galaxy systems.
+astro-ph.CO: Cosmology and Nongalactic Astrophysics. Research in cosmology, large-scale structure of the universe, dark matter, dark energy, cosmic microwave background, and distant extragalactic objects.
+astro-ph.EP: Earth and Planetary Astrophysics. Study of planets, moons, asteroids, comets, and exoplanets, including their formation, evolution, and physical processes.
+astro-ph.HE: High Energy Astrophysical Phenomena. Research on phenomena involving high energies or extreme conditions, such as supernovae, gamma-ray bursts, black holes, neutron stars, and cosmic rays.
+astro-ph.IM: Instrumentation and Methods for Astrophysics. Development and application of astronomical instruments, telescopes, detectors, data analysis techniques, and observational methods.
+astro-ph.SR: Solar and Stellar Astrophysics. Study of the Sun, stars, stellar systems, star formation, stellar structure, evolution, activity, and interstellar medium.
+cond-mat: Condensed Matter. Research on the physical properties of condensed phases of matter.
+cond-mat.dis-nn: Disordered Systems and Neural Networks. Study of amorphous solids, spin glasses, random media, percolation theory, and neural networks from a statistical physics perspective.
+cond-mat.mtrl-sci: Materials Science. Research on the synthesis, structure, properties, and applications of materials, including metals, semiconductors, ceramics, and polymers.
+cond-mat.mes-hall: Mesoscale and Nanoscale Physics (Mesoscopic Physics and Quantum Hall Effect). Study of physical phenomena in systems intermediate in size between microscopic and macroscopic, including quantum dots, nanowires, and the quantum Hall effect.
+cond-mat.other: Other Condensed Matter. Papers in condensed matter physics not covered by the other specific subcategories.
+cond-mat.quant-gas: Quantum Gases. Research on Bose-Einstein condensates, degenerate Fermi gases, and other ultracold atomic and molecular systems.
+cond-mat.soft: Soft Condensed Matter. Study of materials that are easily deformable, such as liquids, polymers, colloids, gels, and biological membranes.
+cond-mat.stat-mech: Statistical Mechanics. Research in statistical physics, thermodynamics, phase transitions, critical phenomena, and equilibrium and non-equilibrium systems.
+cond-mat.str-el: Strongly Correlated Electrons. Study of systems where electron-electron interactions are dominant, including high-temperature superconductors, heavy fermions, and Mott insulators.
+cond-mat.supr-con: Superconductivity. Research on superconducting materials, mechanisms, and phenomena, including conventional and unconventional superconductors.
+gr-qc: General Relativity and Quantum Cosmology. Exploration of general relativity, spacetime structure, black holes, gravitational waves, quantum gravity, and the early universe cosmology.
+hep-ex: High Energy Physics - Experiment. Experimental investigations in particle physics, including particle collision data analysis, detector development, and searches for new particles and phenomena.
+hep-lat: High Energy Physics - Lattice. Lattice gauge theory studies in particle physics, focusing on computational simulations of quantum chromodynamics (QCD) and other quantum field theories on a spacetime lattice.
+hep-ph: High Energy Physics - Phenomenology. Research bridging theoretical particle physics and experimental results, developing models, making predictions for experiments, and interpreting experimental data.
+hep-th: High Energy Physics - Theory. Theoretical studies in particle physics, including quantum field theory, string theory, supersymmetry, conformal field theory, and unification theories.
+math-ph: Mathematical Physics. Application of advanced mathematical methods and rigor to solve problems in theoretical and experimental physics. Often overlaps with math.MP.
+nlin: Nonlinear Sciences. Study of systems exhibiting nonlinear behavior.
+nlin.AO: Adaptation and Self-Organizing Systems. Research on complex adaptive systems, self-organization, artificial life, and emergent behavior.
+nlin.CD: Chaotic Dynamics. Study of chaos, bifurcations, strange attractors, and unpredictability in deterministic systems.
+nlin.CG: Cellular Automata and Lattice Gases. Research on discrete dynamical systems, cellular automata, and lattice gas models.
+nlin.PS: Pattern Formation and Solitons. Study of the emergence of spatial and temporal patterns in dissipative systems and the properties of solitary waves (solitons).
+nlin.SI: Exactly Solvable and Integrable Systems. Research on nonlinear systems that can be solved exactly or exhibit special properties like integrability.
+nucl-ex: Nuclear Experiment. Experimental research in nuclear physics, including studies of nuclear structure, nuclear reactions, radioactive decay, and properties of nuclear matter.
+nucl-th: Nuclear Theory. Theoretical studies in nuclear physics, focusing on nuclear structure models, nuclear reactions, quantum chromodynamics in nuclear systems, and nuclear astrophysics.
+physics: Physics. A broad category for papers that do not fit well into the specific physics main categories (astro-ph, cond-mat, gr-qc, hep-, math-ph, nlin, nucl-, quant-ph) or are interdisciplinary.
+physics.acc-ph: Accelerator Physics. Research on the design, operation, and physics of particle accelerators.
+physics.app-ph: Applied Physics. Physics research with a focus on technological applications, including electronics, photonics, energy, and sensors.
+physics.ao-ph: Atmospheric and Oceanic Physics. Study of the physical processes in the Earth's atmosphere and oceans.
+physics.atm-clus: Atomic and Molecular Clusters. Research on the properties of small aggregates of atoms or molecules.
+physics.atom-ph: Atomic Physics. Study of the structure, properties, and interactions of atoms and ions.
+physics.bio-ph: Biological Physics. Study of biological systems using physical principles and techniques, including biophysics of cells, biomolecules, and complex biological networks.
+physics.chem-ph: Chemical Physics. Research at the interface of physics and chemistry, focusing on the physical principles underlying chemical phenomena.
+physics.class-ph: Classical Physics. Papers on classical mechanics, acoustics, and other areas typically considered within classical physics.
+physics.comp-ph: Computational Physics. Development and application of computational methods and simulations to solve physical problems.
+physics.data-an: Data Analysis, Statistics and Probability. Application of statistical methods, data analysis techniques, and probability theory in physical research.
+physics.flu-dyn: Fluid Dynamics. Study of the motion of fluids (liquids and gases), including hydrodynamics, aerodynamics, and turbulence.
+physics.gen-ph: General Physics. Papers of a general nature or those that span multiple traditional physics subfields.
+physics.geo-ph: Geophysics. Application of physics principles to study the Earth and other planets, including seismology, volcanology, and geomagnetism.
+physics.hist-ph: History and Philosophy of Physics. Research on the historical development and philosophical foundations of physics.
+physics.ins-det: Instrumentation and Detectors. Design, development, and performance of physical instruments and detectors for various applications.
+physics.med-ph: Medical Physics. Application of physics concepts and methods to medicine, including medical imaging, radiotherapy, and physiological measurement.
+physics.optics: Optics. Research on the properties and behavior of light, optical phenomena, optical devices, and photonics.
+physics.soc-ph: Physics and Society. Papers applying physics principles to social phenomena or discussing the interface between physics and society.
+physics.ed-ph: Physics Education. Research on teaching and learning physics.
+physics.plasm-ph: Plasma Physics. Study of ionized gases, including laboratory plasmas, astrophysical plasmas, and fusion plasmas.
+physics.pop-ph: Popular Physics. Papers intended for a broader audience or focusing on popular science aspects of physics.
+physics.space-ph: Space Physics. Study of the physics of the space environment, including the Sun's influence on Earth, solar wind, magnetosphere, and ionosphere.
+quant-ph: Quantum Physics. Research in quantum mechanics, quantum information science, quantum computing, quantum cryptography, and foundational aspects of quantum theory.
+Mathematics
+math: Mathematics. Broad category covering all areas of pure and applied mathematics.
+math.AG: Algebraic Geometry. Study of algebraic varieties, schemes, and other geometric objects defined by polynomial equations.
+math.AT: Algebraic Topology. Study of topological spaces using algebraic methods, including homology, cohomology, and homotopy theory.
+math.AP: Analysis of PDEs. Study of partial differential equations, their solutions, properties, and applications.
+math.CT: Category Theory. Abstract study of mathematical structures and the relationships between them.
+math.CA: Classical Analysis and ODEs. Study of functions, limits, differentiation, integration, series, and ordinary differential equations.
+math.CO: Combinatorics. Study of discrete structures, arrangements, and selections.
+math.AC: Commutative Algebra. Study of commutative rings, ideals, and modules.
+math.CV: Complex Variables. Study of functions of complex numbers, including complex analysis and conformal mapping.
+math.DG: Differential Geometry. Study of smooth manifolds, curves, surfaces, and their geometric properties using calculus.
+math.DS: Dynamical Systems. Study of systems that evolve over time, including chaos theory, ergodic theory, and iterative processes.
+math.FA: Functional Analysis. Study of vector spaces equipped with some kind of limit-related structure, such as Banach spaces and Hilbert spaces.
+math.GM: General Mathematics. Papers of a general nature or those spanning multiple mathematics subfields.
+math.GN: General Topology. Study of topological spaces, continuity, convergence, and related concepts.
+math.GT: Geometric Topology. Study of topological spaces and embeddings from a geometric viewpoint, including knots, manifolds, and low-dimensional topology.
+math.GR: Group Theory. Study of groups, their structure, representations, and applications.
+math.HO: History and Overview. Research on the history of mathematics and overview articles on mathematical topics.
+math.IT: Information Theory. Mathematical study of the quantification, storage, and communication of information. Often overlaps with cs.IT.
+math.KT: K-Theory and Homology. Study of K-theory and various homology theories in algebra and topology.
+math.LO: Logic. Study of mathematical logic, model theory, proof theory, and set theory.
+math.MP: Mathematical Physics. Application of mathematical methods to physics problems. Often overlaps with math-ph.
+math.MG: Metric Geometry. Study of spaces equipped with a distance function.
+math.NT: Number Theory. Study of integers and their properties, including prime numbers, Diophantine equations, and algebraic number theory.
+math.NA: Numerical Analysis. Development and analysis of algorithms for solving mathematical problems, often on computers. Often overlaps with cs.NA.
+math.OA: Operator Algebras. Study of algebras of operators on Hilbert spaces, including C*-algebras and von Neumann algebras.
+math.OC: Optimization and Control. Study of methods for finding the best solutions to problems and controlling dynamic systems. Often overlaps with cs.SY and eess.SY.
+math.PR: Probability. Mathematical study of random events and probabilistic models. Often overlaps with stat.TH.
+math.QA: Quantum Algebra. Study of algebraic structures related to quantum mechanics and quantum groups.
+math.RT: Representation Theory. Study of how abstract algebraic structures can be represented by linear transformations of vector spaces.
+math.RA: Rings and Algebras. Study of rings, modules, and general algebraic structures (excluding commutative rings, which are in math.AC).
+math.SP: Spectral Theory. Study of eigenvalues, eigenvectors, and spectra of operators and matrices.
+math.ST: Statistics Theory. Theoretical research in statistics, including statistical inference, probability theory, and mathematical statistics. Often overlaps with stat.TH.
+math.SG: Symplectic Geometry. Study of symplectic manifolds, often arising from classical mechanics phase spaces.
+Computer Science
+cs: Computing Research Repository (CoRR). Broad category covering all areas of computer science.
+cs.AI: Artificial Intelligence. Research in intelligent agents, knowledge representation, planning, and problem-solving.
+cs.AR: Hardware Architecture. Study of the design, organization, and implementation of computer systems and components.
+cs.CC: Computational Complexity. Study of the resources (time, memory) required to solve computational problems.
+cs.CE: Computational Engineering, Finance, and Science. Application of computational methods to problems in engineering, finance, and scientific disciplines.
+cs.CG: Computational Geometry. Study of algorithms for geometric problems.
+cs.CL: Computation and Language (Computational Linguistics). Study of natural language processing, machine translation, and computational analysis of language.
+cs.CR: Cryptography and Security. Research on securing information and systems, including encryption, authentication, and network security.
+cs.CV: Computer Vision and Pattern Recognition. Study of how computers can "see" and interpret images and videos, including object recognition and image analysis.
+cs.CY: Computers and Society. Study of the societal impact of computers, including privacy, ethics, and policy.
+cs.DB: Databases. Study of database systems, data modeling, query processing, and data management.
+cs.DC: Distributed, Parallel, and Cluster Computing. Research on systems and algorithms for computing across multiple processors or machines.
+cs.DL: Digital Libraries. Study of systems for organizing, managing, and accessing digital content.
+cs.DM: Discrete Mathematics. Study of discrete mathematical structures relevant to computer science, including graph theory and combinatorics. Often overlaps with math.CO.
+cs.ET: Emerging Technologies. Research on new and developing areas in computing not yet covered by established categories.
+cs.FL: Formal Languages and Automata Theory. Study of formal grammars, automata, and the limits of computation.
+cs.GL: General Literature. Overview articles, surveys, and other general computer science literature.
+cs.GR: Graphics. Study of creating, manipulating, and displaying visual content on computers.
+cs.GT: Computer Science and Game Theory. Application of game theory to computer science problems and the study of games from a computational perspective.
+cs.HC: Human-Computer Interaction. Study of how humans interact with computers and the design of user interfaces.
+cs.IR: Information Retrieval. Study of searching for information in documents and databases.
+cs.IT: Information Theory. Study of the quantification, storage, and communication of information. Often overlaps with math.IT.
+cs.LG: Machine Learning. Research on algorithms that allow computers to learn from data without being explicitly programmed. Overlaps with stat.ML.
+cs.LO: Logic in Computer Science. Application of mathematical logic to computer science, including formal verification and knowledge representation.
+cs.MA: Multiagent Systems. Study of systems composed of multiple interacting intelligent agents.
+cs.MS: Mathematical Software. Development and analysis of software for mathematical computation.
+cs.MM: Multimedia. Study of systems for creating, storing, and transmitting multimedia content (audio, video, text, images).
+cs.NI: Networking and Internet Architecture. Research on computer networks, communication protocols, and the structure of the internet.
+cs.NE: Neural and Evolutionary Computing. Study of artificial neural networks, genetic algorithms, and other nature-inspired computational models.
+cs.NA: Numerical Analysis. Development and analysis of algorithms for solving mathematical problems numerically. Often overlaps with math.NA.
+cs.OS: Operating Systems. Study of the software that manages computer hardware and provides common services for programs.
+cs.OH: Other Computer Science. Papers in computer science not covered by the other specific subcategories.
+cs.PF: Performance. Study of the performance evaluation and optimization of computer systems and software.
+cs.PL: Programming Languages. Study of the design, implementation, analysis, and theory of programming languages.
+cs.RO: Robotics. Study of the design, construction, operation, and application of robots.
+cs.SE: Software Engineering. Study of systematic approaches to the design, development, operation, and maintenance of software.
+cs.SI: Social and Information Networks. Study of social networks, online communities, and the structure and dynamics of information flow.
+cs.SD: Sound. Study of the processing, analysis, and synthesis of audio signals. Overlaps with eess.AS.
+cs.SC: Symbolic Computation. Study of algorithms for manipulating mathematical objects represented symbolically, such as polynomials and algebraic expressions.
+cs.SY: Systems and Control. Study of the theory and application of systems engineering and control theory. Often overlaps with math.OC and eess.SY.
+Quantitative Biology
+q-bio: Quantitative Biology. Application of quantitative and theoretical methods to biological systems.
+q-bio.BM: Biomolecules. Study of the structure, function, and dynamics of biological molecules using quantitative methods.
+q-bio.CB: Cell Behavior. Quantitative study of cell processes, including cell cycle, migration, signaling, and differentiation.
+q-bio.GN: Genomics. Quantitative analysis of genomes, including sequence analysis, gene expression, and population genetics.
+q-bio.MN: Molecular Networks. Study of biological networks, such as gene regulatory networks and protein interaction networks, using computational and mathematical models.
+q-bio.NC: Neurons and Cognition. Quantitative and computational study of neurons, neural circuits, and cognitive processes.
+q-bio.OT: Other Quantitative Biology. Papers in quantitative biology not covered by the other specific subcategories.
+q-bio.PE: Populations and Evolution. Quantitative study of population dynamics, ecological interactions, and evolutionary processes.
+q-bio.QM: Quantitative Methods. Development and application of mathematical, statistical, and computational methods for biological research.
+q-bio.SC: Subcellular Processes. Quantitative study of processes occurring within cells, such as protein synthesis, transport, and organelle dynamics.
+q-bio.TO: Tissues and Organs. Quantitative study of the structure, function, and mechanics of tissues and organs.
+Quantitative Finance
+q-fin: Quantitative Finance. Application of mathematical and quantitative methods to financial markets and problems.
+q-fin.CP: Computational Finance. Use of computational techniques, simulations, and algorithms for financial modeling and analysis.
+q-fin.EC: Economics. Quantitative research in economics, often with a focus on financial economics. Overlaps with econ.
+q-fin.GN: General Finance. Papers of a general nature in quantitative finance.
+q-fin.MF: Mathematical Finance. Development and application of mathematical models and theory to financial markets and instruments.
+q-fin.PM: Portfolio Management. Quantitative approaches to portfolio construction, optimization, and risk management.
+q-fin.PR: Pricing of Securities. Quantitative methods for pricing financial derivatives, options, and other securities.
+q-fin.RM: Risk Management. Quantitative assessment and management of financial risks.
+q-fin.ST: Statistical Finance. Application of statistical methods and econometric models to financial data. Overlaps with stat.AP and stat.ML.
+q-fin.TR: Trading and Market Microstructure. Quantitative study of trading strategies, market dynamics, and the structure of financial markets.
+Statistics
+stat: Statistics. Broad category covering all areas of statistical theory and application.
+stat.AP: Applications. Application of statistical methods to problems in various fields such as biology, medicine, social sciences, engineering, and finance. Overlaps with applied areas in other main categories (e.g., q-bio.QM, q-fin.ST).
+stat.CO: Computation. Research on statistical computing, algorithms, simulation methods, and software for statistical analysis.
+stat.ML: Machine Learning. Statistical approaches to machine learning, pattern recognition, and data mining. Overlaps with cs.LG.
+stat.ME: Methodology. Research on the development of new statistical methods and techniques.
+stat.OT: Other Statistics. Papers in statistics not covered by the other specific subcategories.
+stat.TH: Statistics Theory. Theoretical research in statistics, including probability theory, statistical inference, asymptotic theory, and foundations of statistics. Overlaps with math.ST and math.PR.
+Electrical Engineering and Systems Science
+eess: Electrical Engineering and Systems Science. Application-oriented category for research in electrical engineering, signal processing, imaging, and control systems.
+eess.AS: Audio and Speech Processing. Research on the analysis, synthesis, recognition, and processing of audio and speech signals. Overlaps with cs.SD.
+eess.IV: Image and Video Processing. Study of methods for processing, analyzing, and enhancing images and videos. Overlaps with cs.CV.
+eess.SP: Signal Processing. Research on the analysis, interpretation, and manipulation of signals, including filtering, transformation, and detection.
+eess.SY: Systems and Control. Study of dynamic systems, control theory, and system identification. Overlaps with cs.SY and math.OC.
+Economics
+econ: Economics. Research in economics, focusing on econometric methods and theoretical economics.
+econ.EM: Econometrics. Application of statistical methods to economic data for testing theories and forecasting.
+econ.GN: General Economics. Papers of a general nature in economics. Overlaps with q-fin.EC.
+econ.TH: Theoretical Economics. Development of economic theories and models.
+
+Examples: 
+
+{"aid": "http://arxiv.org/abs/2503.23679v1", "title": "The Devil is in the Distributions: Explicit Modeling of Scene Content is\n  Key in Zero-Shot Video Captioning", "summary": "Zero-shot video captioning requires that a model generate high-quality\ncaptions without human-annotated video-text pairs for training.\nState-of-the-art approaches to the problem leverage CLIP to extract\nvisual-relevant textual prompts to guide language models in generating\ncaptions. These methods tend to focus on one key aspect of the scene and build\na caption that ignores the rest of the visual input. To address this issue, and\ngenerate more accurate and complete captions, we propose a novel progressive\nmulti-granularity textual prompting strategy for zero-shot video captioning.\nOur approach constructs three distinct memory banks, encompassing noun phrases,\nscene graphs of noun phrases, and entire sentences. Moreover, we introduce a\ncategory-aware retrieval mechanism that models the distribution of natural\nlanguage surrounding the specific topics in question. Extensive experiments\ndemonstrate the effectiveness of our method with 5.7%, 16.2%, and 3.4%\nimprovements in terms of the main metric CIDEr on MSR-VTT, MSVD, and VATEX\nbenchmarks compared to existing state-of-the-art."}
+
+Result: {"main_category": "cs.CV", "categories": "cs.CV"}
+
+
+{"aid": "http://arxiv.org/abs/2503.23720v1", "title": "On an approach to canonicalizing elliptic Feynman integrals", "summary": "We present a systematic method for the construction of canonical bases for\nunivariate elliptic Feynman integrals with multiple kinematic scales, which\nfrequently arise in phenomenologically relevant scattering processes. The\nconstruction is performed in the Legendre normal form of elliptic curves, where\nthe geometric propoerties of the curves are simple and explicit and further\nkinemtic singularities are present as marked points. The canonical bases are\nconstructed using Abelian differentials of three kinds with a universal linear\ntransformation. The bases constructed in the normal form can be mapped to\ngeneric integral families via an appropriate M\\\"obius transformation. As a\ndemonstration, we discuss the application of our method to several concrete\nexamples, where we show that the $\\varepsilon$-factorization of sub-sector\ndependence can also be simply done. Our method can be readily applied to more\ncomplicated integral families straightforwardly."}
+
+Result: {"main_category": "hep-th", "categories": "hep-th,hep-ph"}
+
+
+{"aid": "http://arxiv.org/abs/2503.23786v1", "title": "MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for\n  High-Resolution Class-agnostic Segmentation", "summary": "Segment Anything Models (SAMs), as vision foundation models, have\ndemonstrated remarkable performance across various image analysis tasks.\nDespite their strong generalization capabilities, SAMs encounter challenges in\nfine-grained detail segmentation for high-resolution class-independent\nsegmentation (HRCS), due to the limitations in the direct processing of\nhigh-resolution inputs and low-resolution mask predictions, and the reliance on\naccurate manual prompts. To address these limitations, we propose MGD-SAM2\nwhich integrates SAM2 with multi-view feature interaction between a global\nimage and local patches to achieve precise segmentation. MGD-SAM2 incorporates\nthe pre-trained SAM2 with four novel modules: the Multi-view Perception Adapter\n(MPAdapter), the Multi-view Complementary Enhancement Module (MCEM), the\nHierarchical Multi-view Interaction Module (HMIM), and the Detail Refinement\nModule (DRM). Specifically, we first introduce MPAdapter to adapt the SAM2\nencoder for enhanced extraction of local details and global semantics in HRCS\nimages. Then, MCEM and HMIM are proposed to further exploit local texture and\nglobal context by aggregating multi-view features within and across\nmulti-scales. Finally, DRM is designed to generate gradually restored\nhigh-resolution mask predictions, compensating for the loss of fine-grained\ndetails resulting from directly upsampling the low-resolution prediction maps.\nExperimental results demonstrate the superior performance and strong\ngeneralization of our model on multiple high-resolution and normal-resolution\ndatasets. Code will be available at https://github.com/sevenshr/MGD-SAM2."}
+
+Result: {"main_category": "cs.CV", "categories": "cs.CV,cs.AI"}
+
+{"aid": "http://arxiv.org/abs/2503.23798v1", "title": "Adaptive Layer-skipping in Pre-trained LLMs", "summary": "Various layer-skipping methods have been proposed to accelerate token\ngeneration in large language models (LLMs). However, they have overlooked a\nfundamental question: How do computational demands vary across the generation\nof different tokens? In this work, we introduce FlexiDepth, a method that\ndynamically adjusts the number of Transformer layers used in text generation.\nBy incorporating a plug-in router and adapter, FlexiDepth enables adaptive\nlayer-skipping in LLMs without modifying their original parameters. Introducing\nFlexiDepth to Llama-3-8B model achieves layer skipping of 8 layers out of 32,\nand meanwhile maintains the full 100\\% benchmark performance. Experimental\nresults with FlexiDepth demonstrate that computational demands in LLMs\nsignificantly vary based on token type. Specifically, generating repetitive\ntokens or fixed phrases requires fewer layers, whereas producing tokens\ninvolving computation or high uncertainty requires more layers. Interestingly,\nthis adaptive allocation pattern aligns with human intuition. To advance\nresearch in this area, we open sourced FlexiDepth and a dataset documenting\nFlexiDepth's layer allocation patterns for future exploration."}
+
+Result: {"main_category": "cs.CL", "categories": "cs.CL,cs.AI"}
+
+{"aid": "http://arxiv.org/abs/2503.24225v1", "title": "Compressible N-phase fluid mixture models", "summary": "Fluid mixture models are essential for describing a wide range of physical\nphenomena, including wave dynamics and spinodal decomposition. However, there\nis a lack of consensus in the modeling of compressible mixtures, with limited\nconnections between different classes of models. On the one hand, existing\ncompressible two-phase flow models accurately describe wave dynamics, but do\nnot incorporate phase separation mechanisms. On the other hand, phase-field\ntechnology in fluid dynamics consists of models incorporating spinodal\ndecomposition, however, a general phase-field theory for compressible mixtures\nremains largely undeveloped.\n  In this paper, we take an initial step toward bridging the gap between\ncompressible two-phase flow models and phase-field models by developing a\ntheory for compressible, isothermal N-phase mixtures. Our theory establishes a\nsystem of reduced complexity by formulating N mass balance laws alongside a\nsingle momentum balance law, thereby naturally extending the Navier-Stokes\nKorteweg model to N-phases and providing the Navier-Stokes\nCahn-Hilliard/Allen-Cahn model for compressible mixtures. Key aspects of the\nframework include its grounding in continuum mixture theory and its\npreservation of thermodynamic consistency despite its reduced complexity."}
+
+Result: {"main_category": "physics.flu-dyn", "categories": "physics.flu-dyn,math-ph,math.AP,math.MP"}
+
+

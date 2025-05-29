@@ -1,0 +1,6 @@
+**/data/
+**/__pycache__/
+**/resources/
+**/base_M/
+**/saved_models/
+**/resources/

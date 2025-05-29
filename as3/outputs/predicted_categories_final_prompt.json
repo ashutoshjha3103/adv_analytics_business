@@ -1,0 +1,42 @@
+[
+  {
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.16575v1",
+    "Title":"Data Center Model for Transient Stability Analysis of Power Systems",
+    "Main Category":"eess.SY",
+    "Categories":"eess.SY,cs.SY",
+    "True Main Category":"eess.SY",
+    "True Categories":"eess.SY,cs.SY"
+  },
+  {
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.16576v1",
+    "Title":"EMULATE: A Multi-Agent Framework for Determining the Veracity of Atomic\n  Claims by Emulating Human Actions",
+    "Main Category":"cs.CL",
+    "Categories":"cs.CL",
+    "True Main Category":"cs.CL",
+    "True Categories":"cs.CL"
+  },
+  {
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.16577v1",
+    "Title":"Large Language Model-Empowered Interactive Load Forecasting",
+    "Main Category":"cs.LG",
+    "Categories":"cs.LG,cs.AI",
+    "True Main Category":"cs.LG",
+    "True Categories":"cs.LG"
+  },
+  {
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.16578v1",
+    "Title":"Standard Running, \"Physical Running\" and Cosmological Constant",
+    "Main Category":"hep-th",
+    "Categories":"hep-th,gr-qc",
+    "True Main Category":"hep-th",
+    "True Categories":"hep-th,gr-qc"
+  },
+  {
+    "Aid":"http:\/\/arxiv.org\/abs\/2505.16579v1",
+    "Title":"Bridging the Dynamic Perception Gap: Training-Free Draft\n  Chain-of-Thought for Dynamic Multimodal Spatial Reasoning",
+    "Main Category":"cs.AI",
+    "Categories":"cs.AI,cs.CV",
+    "True Main Category":"cs.AI",
+    "True Categories":"cs.AI,cs.CV"
+  }
+]
