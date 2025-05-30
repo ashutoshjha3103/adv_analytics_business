@@ -12,7 +12,7 @@ This repository contains the collective work of our team for the Advanced Analyt
 ## Directory Structure
 
 ```
-CLEAN-MAIN/
+adv_analytics_business/
 │
 ├── as1/                      # Assignment 1: Real Estate Price Prediction
 │   ├── assets/
@@ -44,6 +44,7 @@ CLEAN-MAIN/
 ├── as4/                      # Assignment 4: Graph Analytics on Steam Network
 │   ├── assets/
 │   ├── code/
+│   │   └── json_to_csv_and_new_features.ipynb # Features and formatting for Gephi
 │   └── resources/
 │
 ├── requirements.txt
@@ -62,11 +63,11 @@ Final notebook: `as2/code/final_model/`
 
 ### Assignment 3: Tag Prediction using LLMs
 Live-stream processing of arXiv paper metadata using Google Gemini 2.0 API with custom prompt engineering and evaluation metrics.  
-Final notebook: `as3/code/stream_analytics_final_prompt.ipynb`
+Final notebooks: `as3/code/stream_analytics_final_prompt.ipynb`, `as3/code/stream_analytics.ipynb`
 
 ### Assignment 4: Graph Analytics
 Ongoing analysis of Steam social network focused on backlog gamers and play patterns using community detection, centrality, and ego network analysis.  
-Final notebook: `as4/code/` (Work in progress)
+Final notebook: `as4/code/json_to_csv_and_new_features.ipynb`
 
 ## Setup Instructions
 
