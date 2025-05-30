@@ -1,4 +1,4 @@
-# Advanced Analytics in Business – Group Assignments Repository
+# Advanced Analytics in Business – Group 04 Assignments Repository
 
 This repository contains the collective work of our team for the Advanced Analytics in Business course at KU Leuven for Summer Semester 2025. The repository is structured into four main assignment folders, each containing final code, exploratory work, and assets.
 
