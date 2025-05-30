@@ -42,9 +42,9 @@ adv_analytics_business/
 │   └── outputs/
 │
 ├── as4/                      # Assignment 4: Graph Analytics on Steam Network
-│   ├── assets/
+│   ├── assets/       # Graph Visualizations for Assignment 4
 │   ├── code/
-│   │   └── json_to_csv_and_new_features.ipynb # Features and formatting for Gephi
+│   │   └── json_to_csv_and_new_features.ipynb  # Features and formatting for Gephi
 │   └── resources/
 │
 ├── requirements.txt
